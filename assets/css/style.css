@@ -1,0 +1,11 @@
+.jumbotron {
+    padding: 2rem 1rem;
+}
+.weather-dashboard {
+    background-color: blueviolet;
+    color: white;
+}
+
+.btn-secondary {
+    margin-top: 2rem;
+}
