@@ -1,11 +1,32 @@
-.jumbotron {
-    padding: 2rem 1rem;
-}
 .weather-dashboard {
     background-color: blueviolet;
     color: white;
+    padding: 1rem;
+    margin-bottom: 3rem;
 }
 
 .btn-secondary {
     margin-top: 2rem;
+}
+
+#current-day {
+    border: 2px solid black;
+}
+
+.uv-index {
+    color: white;
+    padding: .25rem;
+    border-radius: 5px;
+}
+
+.favorable-uv {
+    background-color: green;
+}
+
+.moderate-uv {
+    background-color: orange;
+}
+
+.severe-uv {
+    background-color: red;
 }
