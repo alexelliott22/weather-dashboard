@@ -14,15 +14,13 @@
         <h1 class="weather-dashboard">Weather Dashboard</h1>
     </header>
     <main class="row">
-        <div class="container col-lg-3">
+        <div class="row col-lg-3">
             <div class="container">
                 <h2 class="col-12">Search for City:</h2>
                 <input class="col-7" type="text" placeholder="Charlotte" id="search-bar">
                 <button class="btn btn-primary col-4" id="search-btn">Search</button>
             </div>
-            <div class="container" id="searched-cities">
-                <button class="btn btn-secondary col-12">Practice</button>
-            </div>
+            <div class="row mb-md-4 mb-sm-4" id="searched-cities"></div>
         </div>
         <div class="container col-lg-9" id="weather-info-container">
             <div class="col-12 container" id="current-day">
@@ -32,7 +30,7 @@
                 <p>Humidity: 50%</p>
                 <p>UV Index: <span class="uv-index favorable-uv">0.48</span></p>
             </div>
-            <div class="container col-12" id="card-container">
+            <div class="row col-12" id="card-container">
                 <h3>5-Day Forecast:</h3>
                 <div class="card bg-dark text-white">
                     <div class="card-body">
@@ -42,7 +40,6 @@
                         <p class="card-text">Wind</p>
                     </div>
                 </div>
-                
             </div>
         </div>
     </main>
